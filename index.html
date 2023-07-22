@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -6,3 +11,34 @@
 <link rel="stylesheet" type="text/css" href="game.css">
 
 <script src="game_login.js"></script>
+
+<button class="btn btn-info">login</button>
+
+</head>
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+        <center>
+            <h1>Jogo</h1>
+            <div class="col-lg-4 col-sm-8 col-xs-11 login div1">
+                <h3>Jogador 1 faça login para jogar</h3>
+                <label> Nome de usuário:</label>
+                <input type="text" id="player1_name_input" class="form-control" placeholder="Nome do Jogador 1">
+                <br>
+            </div>
+<br>
+            <div class="col-lg-4 col-sm-8 col-xs-11 login div1">
+                 <h3>Jogador 2 faça login para jogar</h3>
+                 <label> Nome de usuário:</label>
+                 <input type="text" id="player2_name_input" class="form-control" placeholder="Nome do Jogador 2">
+                 <br>
+            </div>
+            <br>
+                <button style="width:30%" class="btn btn-primary" onclick="addUser()">Login</button>
+        </center>
+
+    <div id="output"></div>
+
+
+</body>
+</html>
